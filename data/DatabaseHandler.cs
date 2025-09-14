@@ -11,7 +11,8 @@ public class DatabaseHandler
     private static DatabaseHandler _databaseHandler;
 
     private static readonly string ConnectionString =
-        @"Data Source=sql.bsite.net\MSSQL2016;User ID=benjamincristina_developerDB;Password=jegCyh-gojwe5-bawtij; TrustServerCertificate=True;";
+        @"Data Source=NotForYourEyes;User ID=NotForYourEyes;Password=NotForYourEyes; TrustServerCertificate=True;";
+    // Connection string will not be published here, but is embedded in the working Demo
 
     public static int userIDFromDatabase;
 
@@ -766,4 +767,5 @@ public class DatabaseHandler
     {
         
     }
+
 }
